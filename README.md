@@ -34,7 +34,7 @@ _Você pode visualizar o codigo que foi desenvolvido e executá-lo, para isso vo
 
 ### Compilando e Executando o arquivo
 1. Encontre o local do arquivo que foi baixado.
-2. Compile o programa da seguinte forma ```gcc main.c -pthread -o prog```. Em algumas distribuições possa ser que vc tenha que alterar a flag ```-pthread``` para  ```-lpthread```. 
+2. Compile o programa da seguinte forma ```gcc main.c -pthread -o prog```. Em algumas distribuições possa ser que você tenha que alterar a flag ```-pthread``` para  ```-lpthread```. 
 3. Isso irá criar um arquivo chamado **prog**.
 4. Para executar esse arquivo digite ```./prog```.
 5. Caso não apareça nenhuma mensagem de erro, quer dizer que o programa foi compilado e executado com sucesso.
