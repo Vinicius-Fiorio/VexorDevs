@@ -25,19 +25,24 @@ Aqui está um exemplo da saída que o programa retorna:
 ![](Exemplo.png)  
 
 _Você pode visualizar o codigo que foi desenvolvido e executá-lo, para isso você deve seguir alguns passos:_
+### Clonando o projeto
+1. Instale o git em sua máquina, executando ``sudo apt install git``.
+2. Você pode verificar se foi instalado digitando ``git --version ``.
+3. Agora você pode clonar o repositório executando `` git clone https://github.com/Vinicius-Fiorio/chavepem.git ``.  
+
 ### Instalando o GCC 
 _Não é necessário executar essa etapa se você estiver conectado na instância EC2, pois já está devidamente instalado_
 1. Baixe o arquivo **main.c** que está disponível nesse mesmo repositório.
 2. Após isso em seu terminal execute os seguintes comandos para podermos compilar o nosso arquivo sem problemas.
-3. Para atualizar os pacotes do seu terminal ``` sudo apt update ```
-4. Para instalar o gcc (Gnu Compiler Collection)  ``` sudo apt install build-essential ```. Confirme digitando 'Y'.
-5. Para verificarmos se o gcc foi corretamente instalado degite em seu terminal ``` gcc --version ```.
+3. Para atualizar os pacotes do seu terminal `` sudo apt update ``
+4. Para instalar o gcc (Gnu Compiler Collection)  `` sudo apt install build-essential ``. Confirme digitando 'Y'.
+5. Para verificarmos se o gcc foi corretamente instalado degite em seu terminal `` gcc --version ``.
 
 ### Compilando e Executando o arquivo
 1. Encontre o local do arquivo que foi baixado.
-2. Compile o programa da seguinte forma ```gcc main.c -pthread -o prog```. Em algumas distribuições possa ser que você tenha que alterar a flag ```-pthread``` para  ```-lpthread```. 
+2. Compile o programa da seguinte forma ``gcc main.c -pthread -o prog``. Em algumas distribuições possa ser que você tenha que alterar a flag ``-pthread `` para  ``-lpthread ``. 
 3. Isso irá criar um arquivo chamado **prog**.
-4. Para executar esse arquivo digite ```./prog```.
+4. Para executar esse arquivo digite ``./prog``.
 5. Caso não apareça nenhuma mensagem de erro, quer dizer que o programa foi compilado e executado com sucesso.
 
 ### Utilizando o programa
