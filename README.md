@@ -11,7 +11,7 @@ O trabalho é compostos por 2 etapas:
       - 10 Gigabytes de armazenamento SSD
       - 200 Gigabytes de armazenamento Cold HDD
     - Sistema Operacional Linux (qualquer distribuição)  
- - O vídeo do processo da criação da instância pode ser visto neste link: [Video Criação Instância](www.google.com) , nesta instância devemos realizar a tarefa de programação que envolve threads e semáforos.
+ - O vídeo do processo da criação da instância pode ser visto neste link: [Video Criação Instância](https://youtu.be/SFM19W0DtMQ) , nesta instância devemos realizar a tarefa de programação que envolve threads e semáforos.
     
 2. A tarefa de programação consiste em desenvolver um código que por meio do uso de semáforos e da biblioteca pthread consiga "alinhar" os threads que estão sendo executados ao mesmo tempo e em loop infinito para que a saída do programa seja uma sequência de elementos químicos "HHSOOOO" e esse processo deve se repetir a quantidade de vezes que o usuário determinou. Além de termos alguns requisitos como:
 
@@ -25,7 +25,8 @@ Aqui está um exemplo da saída que o programa retorna:
 ![](Exemplo.png)  
 
 _Você pode visualizar o codigo que foi desenvolvido e executá-lo, para isso você deve seguir alguns passos:_
-### Instalando o GCC
+### Instalando o GCC 
+_Não é necessário executar essa etapa se você estiver conectado na instância EC2, pois já está devidamente instalado_
 1. Baixe o arquivo **main.c** que está disponível nesse mesmo repositório.
 2. Após isso em seu terminal execute os seguintes comandos para podermos compilar o nosso arquivo sem problemas.
 3. Para atualizar os pacotes do seu terminal ``` sudo apt update ```
